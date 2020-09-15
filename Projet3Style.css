@@ -1,0 +1,266 @@
+body, html
+{
+    margin: 0;
+    align-content: center;
+    width: 100%;
+}
+#titre
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+figure
+{
+    text-align: center;
+}
+#situation
+{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #E0E0E0;
+    font-size: 20px;
+    height: 50px;
+    padding-top: 20px;
+}
+#top
+{
+    margin: 0;
+    background-color: #EEEEEE;
+    padding: 30px;
+    text-align: center;
+}
+#p1
+{
+    width: 250px;
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+#button1
+{
+    width: 200px;
+    background: linear-gradient(#ff79da,#9356dc);
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    box-shadow: gray 1px 2px 5px;
+    text-align: center;
+    align-content: center;
+    padding-top: 15px;
+    text-decoration: none;
+}
+#button1:hover
+{
+    filter: brightness(105%);
+}
+#titlework
+{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: -160px;
+}
+.titleplace
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+#explain
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.exp
+{
+    background-color: #EEEEEE;
+    width: 300px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: grey 1px 3px 7px;
+}
+.exp:hover
+{
+    background-color: #f0e3ff;
+}
+.but
+{
+    position: relative;left: 55px;bottom: 10px;
+}
+.exp .fas
+{
+    text-align: left;
+    position: relative;top: 25px;left: 10px;
+}
+.num
+{
+    background-color: #9356dc;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 50%;
+    position: relative;top: 25px;left: -10px;
+}
+#map
+{
+    padding-right: 10px;
+}
+.explications
+{
+    flex-direction: row;
+}
+#restaurants
+{
+    background-color: #EEEEEE;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+#titlerest
+{
+    margin-top: 30px;
+    margin-left: -160px;
+}
+.img
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 150px;
+    width: 300px;
+
+}
+
+.desc
+{
+    text-align: left;
+    position: relative;top: 0px;
+    background-color: white;
+    width: 300px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.desc p
+{
+    position: relative;top: -20px;
+    margin-left: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.desc h3
+{
+    padding-left: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+h3
+{
+    background-color: white;
+    margin: 0;
+    padding-top: 10px;
+    position: relative;top: -20px;
+}
+footer
+{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+#foot
+{
+    height: 200px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: #212121;
+    text-align: left;
+}
+#backfoot
+{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;left: -50px;
+}
+#backfoot h4
+{
+    font-size: 20px;
+    font-style: italic;
+    font-weight:bold;
+    margin: 0;
+    padding: 0;
+}
+#backfoot .fas
+{
+    padding-right: 10px;
+}
+.fav
+{
+    font-size: 20px;
+    margin: 0;
+    padding:0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.fav .fa
+{
+    position: relative;bottom: 55px;right: -250px;
+}
+.fav .fa:hover
+{
+    background:-webkit-linear-gradient(top,#9356dc,#ff79da);
+    background-clip:text;
+    -webkit-background-clip:text;
+    color:transparent;
+}
+.news
+{
+    margin: 0;
+    background-color: #99E2D0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    z-index: 1;
+    position: relative;left: 110px;top: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.news:hover
+{
+    filter: brightness(105%);
+}
+@media screen and (max-width: 1024px)
+{
+    .exp
+    {
+        width: 300px;
+    }
+    #titlework
+    {
+        margin-left: -90px;
+    }
+}
