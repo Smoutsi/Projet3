@@ -64,10 +64,12 @@ h2
     align-content: center;
     padding-top: 15px;
     text-decoration: none;
+    transition: 0.3s;
 }
 #button1:hover
 {
     filter: brightness(105%);
+    box-shadow: gray 3px 6px 10px;
 }
 #titlework
 {
@@ -95,10 +97,12 @@ h2
     margin-top: 30px;
     border-radius: 30px;
     box-shadow: grey 1px 3px 7px;
+    transition: 0.3s;
 }
 .exp:hover
 {
     background-color: #f0e3ff;
+    box-shadow: gray 3px 6px 10px;
 }
 .but
 {
@@ -227,12 +231,13 @@ footer
 .fav .fa
 {
     position: relative;bottom: 55px;right: -250px;
-}
-.fav .fa:hover
-{
     background:-webkit-linear-gradient(top,#9356dc,#ff79da);
     background-clip:text;
     -webkit-background-clip:text;
+    transition: 0.5s ;
+}
+.fav .fa:hover
+{
     color:transparent;
 }
 .news
@@ -248,10 +253,12 @@ footer
     text-decoration: none;
     color: black;
     font-size: 12px;
+    transition: 0.3s;
 }
 .news:hover
 {
-    filter: brightness(105%);
+    filter: brightness(110%);
+    box-shadow: black 2px 4px 6px;
 }
 @media screen and (max-width: 1024px)
 {
