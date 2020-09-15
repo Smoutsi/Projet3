@@ -208,6 +208,16 @@ footer
     margin-right: auto;
     position: relative;left: -50px;
 }
+#backfoot a
+{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+#backfoot a:hover
+{
+    text-shadow: black 2px 4px 6px;
+}
 #backfoot h4
 {
     font-size: 20px;
@@ -234,7 +244,7 @@ footer
     background:-webkit-linear-gradient(top,#9356dc,#ff79da);
     background-clip:text;
     -webkit-background-clip:text;
-    transition: 0.5s ;
+    transition: 0.3s ;
 }
 .fav .fa:hover
 {
@@ -250,15 +260,8 @@ footer
     padding-bottom: 7px;
     z-index: 1;
     position: relative;left: 110px;top: 50px;
-    text-decoration: none;
     color: black;
     font-size: 12px;
-    transition: 0.3s;
-}
-.news:hover
-{
-    filter: brightness(110%);
-    box-shadow: black 2px 4px 6px;
 }
 @media screen and (max-width: 1024px)
 {
