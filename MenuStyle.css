@@ -19,6 +19,27 @@ h2
     margin-right: auto;
     flex-direction: column;
 }
+#Back
+{
+    text-decoration: none;
+    position: relative;top: 30px;right: 160px;
+    font-size: 30px;
+}
+#Back a
+{
+    color: black;
+}
+#main .fas
+{
+    background:-webkit-linear-gradient(top,#9356dc,#ff79da);
+    background-clip:text;
+    -webkit-background-clip:text;
+    transition: 0.3s ;
+}
+#main .fas:hover
+{
+    color:transparent;
+}
 #main section
 {
     position: relative;left: 20px;bottom: 40px;
@@ -69,7 +90,7 @@ h2
 }
 #titre img
 {
-    position: relative;top: 25px;
+
 }
 header
 {
