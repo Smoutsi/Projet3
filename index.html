@@ -10,23 +10,24 @@
         <meta name="description" content="OhMyFood web site">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="Projet3Style.css">
+        <link rel="stylesheet" href="Style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <figure>
-            <img id="titre" src="logo/ohmyfood@2x.svg"></img>
-        </figure>
         <header>
+            <figure id="titre">
+                <img src="logo/ohmyfood@2x.svg"></img>
+            </figure>
             <section>
                 <p id="situation"><i id="map" class="fas fa-map-marker-alt"></i>Paris,Belleville</p>
             </section>
             <section id="top">
                 <h2>Book the menu you like</h2>
                 <p id="p1">Discover top-of-the-art restaurants we picked for you</p>
-                <a id="button1" href="page2.html">Explore our restaurants</a>
+                <a id="button1" href="#restaurants">Explore our restaurants</a>
             </section>
         </header>
         <section id="explain">
@@ -55,38 +56,62 @@
         </section>
         <section id="restaurants">
             <div class="titleplace"><h2 id="titlerest">Restaurants</h2></div>
-            <article>
-                <a class="news">New</a>
-                <figure><img class="img" src="img/1.jpg"></img></figure>
-                <div class="desc">
-                    <h3>The Full Palette</h3>
-                    <p>New York</p>
-                    <div class="fav"><i class="fa fa-heart"></i></div>
+            <article class="rest">
+                <div class="rest2">
+                    <a href="Page3.html">
+                        <div class="news"><p>New</p></div>
+                        <figure><img class="img" src="img/1.jpg"></img></figure>
+                        <div class="desc">
+                            <h3>The Full Palette</h3>
+                            <p>New York</p>
+                        </div>
+                    </a>
+                    <div class="fav">
+                        <i class="fa fa-heart"></i>
+                    </div>
                 </div>
             </article>
-            <article>
-                <a class="news">New</a>
-                <figure><img class="img" src="img/2.jpg"></img></figure>
-                <div class="desc">
-                    <h3>The enchanted Plate</h3>
-                    <p>New York</p>
-                    <div class="fav"><i class="fa fa-heart"></i></div>
+            <article class="rest">
+                <div class="rest2">
+                    <a href="Page4.html">
+                        <div class="news"><p>New</p></div>
+                        <figure><img class="img" src="img/2.jpg"></img></figure>
+                        <div class="desc">
+                            <h3>The enchanted Plate</h3>
+                            <p>New York</p>
+                        </div>
+                    </a>
+                    <div class="fav">
+                        <i class="fa fa-heart"></i>
+                    </div>
                 </div>
             </article>
-            <article>
-                <figure><img class="img" src="img/3.jpg"></img></figure>
-                <div class="desc">
-                    <h3>Bastille</h3>
-                    <p>New York</p>
-                    <div class="fav" ><i class="fa fa-heart"></i></div>
+            <article class="rest">
+                <div class="rest2">
+                    <a href="Page5.html">
+                        <figure><img class="img" src="img/3.jpg"></img></figure>
+                        <div class="desc">
+                            <h3>Bastille</h3>
+                            <p>New York</p>
+                        </div>
+                    </a>
+                    <div class="fav" >
+                        <i class="fa fa-heart"></i>
+                    </div>
                 </div>
             </article>
-            <article>
-                <figure><img class="img" src="img/4.jpg"></img></figure>
-                <div class="desc">
-                    <h3>Le Gourmand</h3>
-                    <p>New York</p>
-                    <div class="fav"><i class="fa fa-heart"></i></div>
+            <article class="rest">
+                <div class="rest2">
+                    <a href="Page6.html">
+                        <figure><img class="img" src="img/4.jpg"></img></figure>
+                        <div class="desc">
+                            <h3>Le Gourmand</h3>
+                            <p>New York</p>
+                        </div>
+                    </a>
+                    <div class="fav">
+                        <i class="fa fa-heart"></i>
+                    </div>
                 </div>
             </article>
         </section>
