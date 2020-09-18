@@ -44,11 +44,12 @@ h2
 }
 .ok
 {
-    height: 100px;
-    width: 80px;
+    height: 120px;
+    width: 100px;
     background-color: #99E2D0;
     z-index: 0;
-    position: relative;left: 40px;bottom: 80px;
+    position: relative;bottom: 30px;
+    margin-left: 30px;
 }
 .noexp
 {
@@ -161,18 +162,24 @@ figure
     height: 100px;
     overflow: hidden;
 }
+.plat:hover .right
+{
+    transform: translateX(0);
+}
 .right
 {
+    height: 100%;
+    background-color: #EEEEEE;
+    display: flex;
+    padding-left: 20px;
     font-size: 18px;
-    margin: 0;
-    padding:0;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    position: relative;left: 300px;bottom: 55px;
+    position: relative;left: 270px;bottom: 70px;
+    transform: translateX(80px);
+    transition: 0.4s;
 }
 a
 {
-    text-decoration: 0;
+    text-decoration: none;
 }
 .inbox
 {
@@ -181,4 +188,55 @@ a
 .plat a
 {
     color: black;
+}
+#rightS
+{
+    margin-top: 50px;
+}
+@media screen and (max-width: 1024px)
+{
+    #main
+    {
+        width: 300px;
+    }
+    #Bandeau
+    {
+        width: 300px;
+    }
+    #Bandeau img
+    {
+        width: 350px;
+    }
+    .plat
+    {
+        width: 290px;
+        font-size: 12px;
+    }
+    .left
+    {
+        z-index: 3;
+        max-width: 100px;
+        flex-wrap: wrap;
+    }
+    .left h3
+    {
+        width: 250px;
+    }
+    .left p
+    {
+        width: 170px;
+    }
+    .right
+    {
+        z-index: 1;
+        font-size: 14px;
+        position: relative;left: 130px;bottom: 50px;
+        background-color: #EEEEEE;
+        height: 100%;
+    }
+    .ok
+    {
+        position: relative;bottom: 40px;
+    }
+
 }

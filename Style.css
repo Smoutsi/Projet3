@@ -26,6 +26,10 @@ footer
     margin-right: auto;
     position: relative;left: -50px;
 }
+#backfoot .fas
+{
+    padding-right: 10px;
+}
 #backfoot a
 {
     text-decoration: none;
