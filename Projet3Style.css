@@ -31,6 +31,10 @@ figure
     height: 50px;
     padding-top: 20px;
 }
+.rest
+{
+    margin: 40px;
+}
 #top
 {
     margin: 0;
@@ -117,7 +121,7 @@ figure
 {
     position: relative;left: 55px;bottom: 10px;
 }
-.exp .fas
+.exp .far
 {
     text-align: left;
     position: relative;top: 25px;left: 10px;
@@ -142,9 +146,13 @@ figure
 }
 #restaurants
 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #EEEEEE;
     text-align: center;
-    margin: 0;
     padding: 20px;
 }
 #titlerest
@@ -210,7 +218,7 @@ h3
     padding-bottom: 0;
     margin-bottom: 0;
 }
-.fav .fa
+.fav .far
 {
     position: relative;bottom: 55px;right: -100px;
     background:-webkit-linear-gradient(top,#9356dc,#ff79da);
@@ -218,7 +226,7 @@ h3
     -webkit-background-clip:text;
     transition: 0.3s ;
 }
-.fav .fa:hover
+.fav .far:hover
 {
     color:transparent;
 }
@@ -349,6 +357,14 @@ h3
     #titlework
     {
         margin-left: -90px;
+    }
+    #restaurants
+    {
+        flex-direction: column;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
     .img
     {

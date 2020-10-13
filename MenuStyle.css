@@ -204,73 +204,93 @@ a
 {
     margin-top: 50px;
 }
+.right p
+{
+    height: 200px;
+    background-color: white;
+}
 .p1
 {
-    transform: translateY(-999px);
-    animation: slide1 2s both;
+    animation: slide1 1.5s both;
 }
 .p2
 {
-    transform: translateY(-999px);
-    animation: slide2 2.5s both;
+    animation: slide2 2s both;
 }
 .p3
 {
-    transform: translateY(-999px);
-    animation: slide3 3s both;
+    animation: slide3 2.5s both;
 }
 .p4
 {
-    transform: translateY(-999px);
-    animation: slide4 3.5s both;
+    animation: slide4 3s both;
 }
 @keyframes slide1
 {
     0%{
-        transform: translateY(-999px);
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    60%
+    {
+        transform: translateY(0);
     }
     100%
     {
         transform: translateY(0);
+        opacity: 1;
     }
 }
 @keyframes slide2
 {
     0%{
-        transform: translateY(-999px);
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    60%
+    {
+        transform: translateY(0);
     }
     100%
     {
-        transform: translateY(0);
+        opacity: 1;
     }
 }
 @keyframes slide3
 {
     0%{
-        transform: translateY(-999px);
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    60%
+    {
+        transform: translateY(0);
     }
     100%
     {
         transform: translateY(0);
+        opacity: 1;
     }
 }
 @keyframes slide4
 {
     0%{
-        transform: translateY(-999px);
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    60%
+    {
+        transform: translateY(0);
     }
     100%
     {
         transform: translateY(0);
+        opacity: 1;
     }
 }
 @media screen and (max-width: 1024px)
 {
     #main
-    {
-        width: 300px;
-    }
-    #Bandeau
     {
         width: 300px;
     }
@@ -309,4 +329,8 @@ a
     {
         position: relative;bottom: 40px;
     }
+    #main #heart
+{
+    position: relative;left: 180px;top: 25px;
+}
 }
